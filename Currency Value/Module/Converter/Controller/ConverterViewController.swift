@@ -9,7 +9,6 @@
 import UIKit
 import DropDown
 import Firebase
-
 class ConverterViewController: UIViewController {
     @IBOutlet weak var fromCountryButton: UIButton!
     @IBOutlet weak var toCountryButton: UIButton!
@@ -28,6 +27,7 @@ class ConverterViewController: UIViewController {
 
     @IBOutlet weak var convertButton: UIButton!
     @IBOutlet weak var dateButton: UILabel!
+    //MARK:- VIEW LIFE CYCLE METHODS
     override func viewDidLoad() {
         super.viewDidLoad()
         var ref: DatabaseReference!
