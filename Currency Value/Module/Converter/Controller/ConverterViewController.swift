@@ -144,6 +144,7 @@ class ConverterViewController: UIViewController {
         self.view.endEditing(true)
     }
 }
+//MARK:- EXTENSION
 extension UIViewController {
     /// Shows alert with no action for ok button
     /// - Parameters:
