@@ -105,6 +105,7 @@ class ConverterViewController: UIViewController {
         }
         return converterItems
     }
+    /// convert action
     @IBAction func convertAction(_ sender: Any) {
         if appDelegate?.isInternetAvailable() == false {
             print("Internet available ==> ")
