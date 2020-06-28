@@ -86,6 +86,7 @@ class ConverterViewController: UIViewController {
         }
         dropDown.show()
     }
+    /// handle data
     func handleDatas() -> [ConverterItem] {
         let path = Bundle.main.path(forResource: "CountryData", ofType: "plist")
         let data = try! Data(contentsOf: URL.init(fileURLWithPath: path!))
